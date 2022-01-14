@@ -1,27 +1,93 @@
-<! DOCTYPE html>
+<!--DOCTYPE html-->
 <html>
 
 	<head>
+	
+		<!-- connects to CSS -->
+		<link rel ="stylesheet" type ="text/css" href="./css/style.css">
+		<script src="./js/index.js"></script>
 
-		<title> Page Title! </title>
+		<!-- connects to JS -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+		<!--helps when shrinking the frame of the window -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title> xaviergram.com</title>
+		
+
 	</head>
 
 	<body>
-		<h1> Xavier Amaro </h1>
+		<div id="header">
+			<h1> xaviergram </h1>
+			
+			<!-- resume button -->
+			<button class = "resume-button">
+				<a href ="https://docs.google.com/document/d/1znoIJ3p8d2oXzXG7C5H3RwUoGnkrDAOOF2xFrixbLMY/edit" target="_blank">RESUME</a>
+			</button>
+		</div>
 	
-		<img src = "https://cdn.vox-cdn.com/thumbor/39qOT2mBvSzyuLRthZyxxxSXDkg=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/2449662/shutterstock_149489132.0.jpg">
 
-		<img src=".image/white cat.jpeg">
+		<!--fonts-->
 
-		<p> This is a <b>paragraph</b>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Cedarville+Cursive&family=Montserrat:wght@500&family=Roboto+Slab:wght@500&family=Trispace:wght@600&display=swap" rel="stylesheet">
 
-			<u> this is underlined </u>
-			<i> this is in italics </i>
-		
-		 </p>
+		<!--bioNlinks id -->
+		<div id ="bioNlinks">
+			
+			<!-- element 1 class // subheader and image-->
+			<div class="element1">
+			<h2> <b> First generation student at Columbia University <b> </h2> <br> <br>
 
-		<a href="https://www.linkedin.com/in/xavier-amaro-766654226/">
-			LinkedIn</a>
+			<!--image -->
+			<img src = "https://cdn.vox-cdn.com/thumbor/39qOT2mBvSzyuLRthZyxxxSXDkg=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/2449662/shutterstock_149489132.0.jpg" width = "300px" height="300px">
+		</div>
+			<!--bioBox class // biography & links-->
+			<div class="bioBox">
+				<h4> aspiring urban planner / computer scientist <br><br> he/him <br><br> Raleigh, NC // NYC, NY <br></h4>
+				<p> <p>
+				<h5>
+				Here's my 
+				<a href="https://www.linkedin.com/in/xavier-amaro-766654226/"target="_blank">
+				<b>LinkedIn</b>
+				</a>
+				 and 
+				<a href= "https://www.google.com/search?q=dogs&oq=dogs&aqs=chrome..69i57j46i433i512j0i433i457i512j0i402l2j0i433i512j46i433i512j0i512l3.8232j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+				<b>my second favorite animal </b></a>
+				.
+				</h5>
+				<br>
+				<p> I'm a current first-generation first year undergraduate at Columbia University and the first of my family to go to college. I'm pursuing a B.A. in <mark>Computer Science</mark> and <mark>Urban Studies</mark>. 
+				</p>
+				<br>
+				<p> I'm passionate about public transportation and cultural archiving in an urban environment.</p>
+				<br>
+			</div>
+			<!-- linkBox class // box to put links in -->
+			<div class="linkBox">
+				<span class="links">
+				<a href="https://www.instagram.com/xavieramaro__/" target="_blank">INSTAGRAM
+				</a>  
+				/ 
+				</span>
+					<span class="links"> 
+					<a href="https://open.spotify.com/user/xavier.amaro.?si=vw04r-p8SzyXDwYE_5ecDg&nd=1" target="_blanket"> SPOTIFY </a>
+				/	
+
+					</span>
+	</div>
+	</div>
+			<!-- container ID -->
+			<div id="container">
+				<div class="column-left"> hello! </div>
+				<div class="column-middle"> middle box here </div>
+				<div class="column-right"> right box here </div>
+			</div>
+		<script src="js/index.js"></script>	
 	</body>
+
 
 </html>
